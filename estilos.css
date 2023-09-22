@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.navbar {
+  height: 100px;
+  background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
+  box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
+  z-index: 9999;
+}
+.navbar li a:hover {
+  color: orange !important;
+}
+.navbar .navbar-brand img {
+  height: 60px;
+}
+.navbar .nav-link {
+  color: white !important;
+  font-size: larger;
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+  font-family: cursive;
+}
+.navbar .navbar-toggler-icon {
+  text-shadow: 5px 5px 5px black;
+}
+.navbar .d-block {
+  height: 400px;
+  width: 100%;
+}
+.navbar a span {
+  color: orange;
+  text-shadow: 5px 5px 5px black;
+  -webkit-text-stroke: 1px rgb(39, 38, 38);
+  font-family: fantasy;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+div {
+  width: 100% !important;
+  margin: 0;
+}
+
+#sec1 {
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 1px rgb(69, 67, 67);
+  text-shadow: 5px 5px 5px black;
+  text-transform: uppercase;
+  background-color: orange;
+  padding: 10px;
+  margin: auto;
+  font-family: cursive;
+}
+
+section {
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  padding: 60px;
+  /* <!-- inicio section alimentos de perro --> */
+}
+section .card {
+  width: 200px;
+  height: 350px;
+  padding: 1px;
+  background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
+  border: 2px solid orange;
+  display: grid;
+  /* filter: grayscale(100%); */
+  transition: all 0.6s;
+}
+section .card-img1 {
+  background-image: url(img/alimentos/XT-21.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img2 {
+  background-image: url(img/alimentos/Sabrokan2.png);
+  background-size: 185px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img3 {
+  background-image: url(img/alimentos/sansonDOG.jpg);
+  background-size: 190px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img4 {
+  background-image: url(img/alimentos/Alfa\ Dog\ Adulto\ .jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img5 {
+  background-image: url(img/alimentos/strong1.png);
+  background-size: 190px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img6 {
+  background-image: url(img/alimentos/Fregood.jpg) !important;
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img7 {
+  background-image: url(img/alimentos/Master\ DOG.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img8 {
+  background-image: url(img/alimentos/master\ dog\ adulto\ alexis.png);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img9 {
+  background-image: url(img/alimentos/purinaone2.png);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img10 {
+  background-image: url(img/Bokato\ Lady.png);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img11 {
+  background-image: url(img/alimentos/bokato\ tradicional.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img12 {
+  background-image: url(img/alimentos/bokato\ cachorro\ premiun\ .jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img13 {
+  background-image: url(img/alimentos/bokato\ gold.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img14 {
+  background-image: url(img/alimentos/bokato\ gold.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img15 {
+  background-image: url(img/alimentos/bokato\ gold.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img16 {
+  background-image: url(img/alimentos/bokato\ veloz\ .jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img17 {
+  background-image: url(img/alimentos/cachupin\ adulto.jpg);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img18 {
+  background-image: url(img/alimentos/Yokan2.png);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img19 {
+  background-image: url(img/Purina\ ProPlan\ Gato.png);
+  background-size: 180px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img20 {
+  background-image: url(img/alimentos/FIT\ formula\ Gato\ .jpg);
+  background-size: 160px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img21 {
+  background-image: url(img/alimentos/bio\ cat\ .jpg);
+  background-size: 158px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img22 {
+  background-image: url(img/galeria/wenuy\ azul\ .png);
+  background-size: 168px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img23 {
+  background-image: url(img/galeria/wenuy\ rosado.png);
+  background-size: 170px;
+  height: 200px;
+  width: 100%;
+}
+section .card-img24 {
+  background-image: url(img/alimentos/master\ cat\ lover.jpg);
+  background-size: 200px;
+  height: 200px;
+  width: 100%;
+}
+section .card-title {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+section .card-desc {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+section .card:hover {
+  /* filter: grayscale(0%); */
+  transition: all 0.9s;
+  transform: scale(1.08);
+}
+section h3 {
+  text-align: center;
+}
+section .btn {
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
+  border: 2px solid orange;
+  color: #fff;
+  margin: 5px;
+}
+
+article {
+  padding-top: 2px;
+  background-color: white;
+  height: 200px;
+  margin: 10px;
+  transition: all 0.6s;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 5px 8px 12px rgba(230, 198, 140, 0.995);
+}
+
+.article:hover {
+  transition: all 0.9s;
+  transform: scale(1.08);
+}
+
+.card a {
+  color: #fff;
+  text-align: center;
+  background-color: orange;
+  border-radius: 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  margin: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+footer {
+  height: auto;
+  width: auto;
+  background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  display: flex contents;
+  flex-wrap: wrap;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+footer i {
+  color: orange;
+  font-size: 40px;
+  letter-spacing: 30px;
+}
+
+.fa-brands {
+  color: orange;
+  text-decoration: none;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: #333 255, 166, 0, 0.708;
+  color: orange !important;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 28px;
+  box-shadow: 0 0 5px orange !important;
+}
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: #333;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+.jumbotron {
+  background-color: orange;
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 10%;
+  background-image: url(img/regalon.jpg);
+  background-size: cover;
+  background-position: center;
+  /* filter: brightness(); */
+}
+
+.jumbotron p {
+  background-color: rgba(0, 0, 0, 0.7019607843);
+  color: white;
+  font-family: monospace;
+  box-shadow: inset;
+  text-align: left;
+  font-size: x-large;
+  border-radius: 10px;
+  height: 700px;
+  width: 750px;
+}
+
+@media (max-width: 750px) {
+  .jumbotron p {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}
+.hero {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.features {
+  padding: 50px 0;
+}
+
+.features .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.features .card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features .card-text {
+  font-size: 16px;
+  color: #fff;
+}
+
+.cat-toy {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cat-toy h3 {
+  color: #dc3545;
+  font-size: 20px;
+}
+
+.cat-toy p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cat-toy img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.col-md-6 {
+  margin: auto;
+}
+
+.imgp {
+  margin: auto;
+  flex: auto;
+  display: block;
+}
+
+/* Estilos adicionales html gatos y perros */
+.container {
+  margin-top: 50px;
+}
+
+.cat-animation {
+  animation: catAnimation 2s infinite;
+}
+
+@keyframes catAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body.mb-3 {
+  font-family: Arial, sans-serif;
+}
+
+#producto {
+  flex: auto;
+}
+
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=number] {
+  margin-bottom: 15px;
+}
+
+button[type=submit] {
+  margin-top: 15px;
+}
+
+.resumen-pedido {
+  display: none;
+}
+
+.resumen-pedido.active {
+  display: block;
+}
+
+.btnFC {
+  border-radius: 10px 10px 10px;
+  color: white;
+  background-color: orange;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.container h3 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.col-md-1 img {
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
+}
+
+.col-md-6 img {
+  margin: 15px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
+}
+
+.col-md-4 {
+  margin: 5px;
+}
+
+.col-lg-2 img {
+  height: 80%;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
+}/*# sourceMappingURL=estilos.css.map */
