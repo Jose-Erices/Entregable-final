@@ -44,9 +44,6 @@ html {
   position: absolute;
   top: 40px;
 }
-.navbar .navbar-nav {
-  left: 100%;
-}
 
 div {
   width: 100% !important;
