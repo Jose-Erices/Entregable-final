@@ -15,6 +15,7 @@ html {
     // background-color: rgba(29, 27, 27, 0.819);
     box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
     z-index: 9999;
+    
 
     li a:hover {
         color: orange !important;
@@ -23,7 +24,7 @@ html {
     .navbar-brand img {
         height: 60px;
     }
-
+    
     .nav-link {
         color: white !important;
         font-size: larger;
@@ -31,15 +32,18 @@ html {
         text-shadow: 5px 5px 5px black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         
+        
     }
 
     .navbar-toggler-icon {
         text-shadow: 5px 5px 5px black;
+        
     }
 
     .d-block {
         height: 400px;
         width: 100%;
+        
     }
 
     a span {
@@ -49,10 +53,12 @@ html {
         color: orange;
         font-size: 1.5rem;
         text-shadow: 2px 2px 2px black;
-        font-family: "Times New Roman", Times, serif;    
-       
-       
-        
+        font-family: "Times New Roman", Times, serif;   
+        position: absolute;
+         
+    }
+    .navbar-nav{
+        left: 100%;
     }
 }
 
