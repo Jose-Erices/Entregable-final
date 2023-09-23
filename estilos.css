@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -537,6 +538,11 @@ button[type=submit] {
   box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
 }
 
+.row1 {
+  height: auto;
+  max-width: 900px;
+  padding: 10px;
+}
 .row1 img {
   width: 300px;
   height: 200px;
@@ -548,6 +554,28 @@ button[type=submit] {
   padding: 10px;
 }
 
+.card-title {
+  text-align: left !important;
+}
+
+.responsive-card-title {
+  font-size: 15px;
+  /* Tamaño de fuente por defecto */
+}
+
+@media (max-width: 576px) {
+  .responsive-card-title {
+    font-size: 14px;
+    /* Tamaño de fuente para pantallas pequeñas */
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .responsive-card-title {
+    font-size: 16px;
+    /* Tamaño de fuente para pantallas medianas */
+  }
+}
 .col-md-11 {
-  padding: 210px !important;
+  padding: 200px !important;
+  transform: translate(-40%);
 }/*# sourceMappingURL=estilos.css.map */

@@ -15,7 +15,7 @@ html {
     // background-color: rgba(29, 27, 27, 0.819);
     box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
     z-index: 9999;
-    
+
 
     li a:hover {
         color: orange !important;
@@ -24,26 +24,26 @@ html {
     .navbar-brand img {
         height: 60px;
     }
-    
+
     .nav-link {
         color: white !important;
         font-size: larger;
         color: #fff;
         text-shadow: 5px 5px 5px black;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-        
-        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
     }
 
     .navbar-toggler-icon {
         text-shadow: 5px 5px 5px black;
-        
+
     }
 
     .d-block {
         height: 400px;
         width: 100%;
-        
+
     }
 
     a span {
@@ -52,12 +52,12 @@ html {
         margin: auto;
         color: orange;
         text-shadow: 2px 2px 2px black;
-        font-family: "Times New Roman", Times, serif;   
+        font-family: "Times New Roman", Times, serif;
         position: absolute;
         top: 40px;
-         
+
     }
-   
+
 }
 
 div {
@@ -84,8 +84,8 @@ div {
     background-color: orange;
     padding: 10px;
     margin: auto;
-    font-family:'Times New Roman', Times, serif;
-   
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 
@@ -334,7 +334,7 @@ article {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-   
+
 
 }
 
@@ -415,8 +415,8 @@ footer {
     line-height: 40px;
     font-size: 28px;
     box-shadow: 0 0 5px orange !important;
-    
-   
+
+
 
 }
 
@@ -440,7 +440,7 @@ footer {
     background-image: url(img/regalon.jpg);
     background-size: cover;
     background-position: center;
-    
+
     /* filter: brightness(); */
 }
 
@@ -448,7 +448,7 @@ footer {
 .jumbotron p {
     background-color: #000000b3;
     color: white;
-    font-family:monospace;
+    font-family: monospace;
     box-shadow: inset;
     text-align: left;
     font-size: x-large;
@@ -608,59 +608,93 @@ button[type="submit"] {
 
 //   Formulario de contactos en nosotros
 
-.btnFC{
+.btnFC {
     border-radius: 10px 10px 10px;
-    color:white;
+    color: white;
     background-color: orange;
     padding: 5px 20px;
     text-decoration: none;
-    
+
 }
-.container h3{
+
+.container h3 {
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration:underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
 }
 
 // menu gatos
 
-.col-md-1 img{
+.col-md-1 img {
     height: 200px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
 }
 
-.col-md-6 img{
-    margin:0;
+.col-md-6 img {
+    margin: 0;
     padding: 20px;
     border-radius: 10px;
- 
+
 
 }
-.col-md-4{
+
+.col-md-4 {
     margin: 5px;
-   
+
 }
-.col-lg-2 img{
+
+.col-lg-2 img {
     height: 80%;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
-    
-}
-.row1 img{
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-   
 
 }
-.col-md-11{
-    padding: 210px !important;
+
+.row1 {
+    height: auto;
+    max-width: 900px;
+    padding: 10px;
+
+    img {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+
+    }
+}
+
+.card-title {
+    text-align: left !important;
+}
+
+.responsive-card-title {
+    font-size: 15px;
+    /* Tamaño de fuente por defecto */
+}
+
+@media (max-width: 576px) {
+    .responsive-card-title {
+        font-size: 14px;
+        /* Tamaño de fuente para pantallas pequeñas */
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .responsive-card-title {
+        font-size: 16px;
+        /* Tamaño de fuente para pantallas medianas */
+    }
+}
+
+.col-md-11 {
+    padding: 200px !important;
+    transform: translate(-40%, );
 }
