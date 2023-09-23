@@ -39,10 +39,10 @@ html {
   height: auto;
   margin: auto;
   color: orange;
-  font-size: 1.5rem;
   text-shadow: 2px 2px 2px black;
   font-family: "Times New Roman", Times, serif;
   position: absolute;
+  top: 40px;
 }
 .navbar .navbar-nav {
   left: 100%;
