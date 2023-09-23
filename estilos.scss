@@ -43,13 +43,12 @@ html {
     }
 
     a span {
+        margin: auto;
         color: orange;
-        flex:auto;
         font-size: 2rem;
         text-shadow: 5px 5px 5px black;
         font-family:fantasy;       
         position:relative;
-      
         left: 1%;
         transform: translate(-50%, -50%);
         
@@ -75,13 +74,12 @@ div {
 #sec1 {
     text-align: center;
     color: #fff;
-    -webkit-text-stroke: 1px rgb(69, 67, 67);
     text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
     background-color: orange;
     padding: 10px;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
    
 }
 
