@@ -521,10 +521,9 @@ button[type=submit] {
 }
 
 .col-md-6 img {
-  margin: 15px;
+  margin: 0;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
+  border-radius: 10px;
 }
 
 .col-md-4 {
@@ -532,9 +531,8 @@ button[type=submit] {
 }
 
 .col-lg-2 img {
-  height: auto;
-  width: auto;
-  margin: auto;
+  height: 80%;
+  margin: 10px;
   border-radius: 5px;
   box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
 }/*# sourceMappingURL=estilos.css.map */
