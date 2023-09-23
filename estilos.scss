@@ -29,7 +29,7 @@ html {
         font-size: larger;
         color: #fff;
         text-shadow: 5px 5px 5px black;
-        font-family:cursive;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
         
     }
 
@@ -44,13 +44,13 @@ html {
 
     a span {
         color: orange;
+        flex:auto;
+        font-size: 2rem;
         text-shadow: 5px 5px 5px black;
-        -webkit-text-stroke: 1px rgb(39, 38, 38);
-        font-family:fantasy;
-        font-size: 1.8rem;
-        position: absolute;
-        top: 50%;
-        left: 20%;
+        font-family:fantasy;       
+        position:relative;
+      
+        left: 1%;
         transform: translate(-50%, -50%);
         
     }
@@ -76,12 +76,12 @@ div {
     text-align: center;
     color: #fff;
     -webkit-text-stroke: 1px rgb(69, 67, 67);
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 2px 2px 2px black;
     text-transform: uppercase;
     background-color: orange;
     padding: 10px;
     margin: auto;
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    
 }
 
@@ -382,7 +382,7 @@ footer {
 
     p {
         margin-bottom: 10px;
-        font-family: cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
 
