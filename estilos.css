@@ -535,4 +535,19 @@ button[type=submit] {
   margin: 10px;
   border-radius: 5px;
   box-shadow: 5px 8px 5px rgba(255, 166, 0, 0.217);
+}
+
+.row1 img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.col-md-11 {
+  padding: 210px !important;
 }/*# sourceMappingURL=estilos.css.map */
