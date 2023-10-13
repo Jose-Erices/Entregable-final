@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="El Castillo de Tu Mascota">
+  <meta name="keywords" content="perros, gatos, juguetes, alimentos, tienda mascota">
   <!-- font inicia -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
@@ -22,7 +24,7 @@
   <nav class="navbar navbar-expand-sm navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="../img/boxer-38222_1280.png" alt="">
-        <span>El Castillo De Tu Mascota</span>
+        <span class="d-none d-md-inline-block">El Castillo De Tu Mascota</span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -111,7 +113,6 @@
     <h3>Resumen del pedido:</h3>
     <div id="resumen"></div>
   </div>
-
   <script>
     function mostrarResumen() {
       var nombre = document.getElementById("nombre").value;
@@ -126,8 +127,6 @@
       document.getElementById("resumen-pedido").classList.add("active");
     }
   </script>
-
-
   <!-- Inicio footer -->
   <footer>
     <div>
@@ -140,19 +139,6 @@
     </div>
   </footer>
   <!-- fin footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
   <!-- BS inicia -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
