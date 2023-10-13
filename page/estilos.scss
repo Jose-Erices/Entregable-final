@@ -18,7 +18,7 @@ html {
     #292b28,
     #272723
   );
-    box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
+  box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
   z-index: 9999;
 
   li a:hover {
@@ -85,7 +85,7 @@ section {
   align-items: center;
   gap: 10px;
   padding: 60px;
-
+  
   .card {
     width: 200px;
     height: 350px;
@@ -514,6 +514,7 @@ footer {
 /* Estilos adicionales html gatos y perros */
 .container {
   margin-top: 50px;
+  
 }
 
 .cat-animation {
@@ -647,22 +648,37 @@ button[type="submit"] {
 
 .row1 {
   height: auto;
-  max-width: 900px;
+  max-width: 100%;
   padding: 10px;
+  margin: 0;
   img {
-    width: 300px;
+    width: auto;
     height: 200px;
     margin: 10px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 70%;
+    left: 60%;
     transform: translate(-50%, -50%);
     padding: 10px;
   }
 }
+.fixed-heading {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(50% - 40px);
+  background-color: #f1f1f173;
+  color: black;
+  padding: auto;
+  z-index: 9999;
+  @media (max-width: 768px) {
+    width: calc(100% - 10px);
+    left: 10px;
+  }
+}
 
 .card-body {
-  padding: 1rem 2rem;
+  padding: -6rem 2rem;
 }
 
 .card-title {
@@ -683,3 +699,7 @@ button[type="submit"] {
   padding: 200px !important;
   transform: translate(-40%);
 }
+
+
+
+

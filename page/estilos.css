@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +15,12 @@ html {
   box-shadow: 0 2px 5px rgb(237, 138, 9) !important;
   z-index: 9999;
 }
-
 .navbar li a:hover {
   color: orange !important;
 }
-
 .navbar .navbar-brand img {
   height: 60px;
 }
-
 .navbar .nav-link {
   color: white !important;
   font-size: larger;
@@ -32,16 +28,13 @@ html {
   text-shadow: 5px 5px 5px black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .navbar .navbar-toggler-icon {
   text-shadow: 5px 5px 5px black;
 }
-
 .navbar .d-block {
   height: 400px;
   width: 100%;
 }
-
 .navbar a span {
   width: auto;
   height: auto;
@@ -82,7 +75,6 @@ section {
   padding: 60px;
   /* <!-- inicio section alimentos de perro --> */
 }
-
 section .card {
   width: 200px;
   height: 350px;
@@ -90,194 +82,164 @@ section .card {
   background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
   border: 2px solid orange;
   display: grid;
-  /* filter: grayscale(100%); */
   transition: all 0.6s;
 }
-
 section .card-img1 {
   background-image: url(../img/alimentos/XT-21.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img2 {
   background-image: url(../img/alimentos/Sabrokan2.png);
   background-size: 185px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img3 {
   background-image: url(../img/alimentos/sansonDOG.jpg);
   background-size: 190px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img4 {
   background-image: url(../img/alimentos/Alfa\ Dog\ Adulto\ .jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img5 {
   background-image: url(../img/alimentos/strong1.png);
   background-size: 190px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img6 {
   background-image: url(../img/alimentos/Fregood.jpg) !important;
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img7 {
   background-image: url(../img/alimentos/Master\ DOG.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img8 {
   background-image: url(../img/alimentos/master\ dog\ adulto\ alexis.png);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img9 {
   background-image: url(../img/alimentos/purinaone2.png);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img10 {
   background-image: url(../img/Bokato\ Lady.png);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img11 {
   background-image: url(../img/alimentos/bokato\ tradicional.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img12 {
   background-image: url(../img/alimentos/bokato\ cachorro\ premiun\ .jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img13 {
   background-image: url(../img/alimentos/bokato\ gold.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img14 {
   background-image: url(../img/alimentos/bokato\ gold.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img15 {
   background-image: url(../img/alimentos/bokato\ gold.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img16 {
   background-image: url(../img/alimentos/bokato\ veloz\ .jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img17 {
   background-image: url(../img/alimentos/cachupin\ adulto.jpg);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img18 {
   background-image: url(../img/alimentos/Yokan2.png);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img19 {
   background-image: url(../img/Purina\ ProPlan\ Gato.png);
   background-size: 180px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img20 {
   background-image: url(../img/alimentos/FIT\ formula\ Gato\ .jpg);
   background-size: 160px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img21 {
   background-image: url(../img/alimentos/bio\ cat\ .jpg);
   background-size: 158px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img22 {
   background-image: url(../img/galeria/wenuy\ azul\ .png);
   background-size: 168px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img23 {
   background-image: url(../img/galeria/wenuy\ rosado.png);
   background-size: 170px;
   height: 200px;
   width: 100%;
 }
-
 section .card-img24 {
   background-image: url(../img/alimentos/master\ cat\ lover.jpg);
   background-size: 200px;
   height: 200px;
   width: 100%;
 }
-
 section .card-title {
   text-align: center;
   color: white;
   font-size: 15px;
 }
-
 section .card:hover {
-  /* filter: grayscale(0%); */
   transition: all 0.9s;
   transform: scale(1.08);
 }
-
 section h3 {
   text-align: center;
 }
-
 section .btn {
   border-radius: 10px;
   background-image: linear-gradient(to right bottom, #323636, #2e3231, #2b2f2c, #292b28, #272723);
@@ -306,14 +268,12 @@ article {
   justify-content: center;
   overflow: hidden;
 }
-
 .article img {
   max-width: 100%;
   height: auto;
   border-radius: 100px;
   box-shadow: 5px 8px 12px rgba(230, 198, 140, 0.995);
 }
-
 .article:hover {
   transition: all 0.9s;
   transform: scale(1.08);
@@ -344,12 +304,10 @@ footer {
   flex-wrap: wrap;
   text-align: center;
 }
-
 footer p {
   margin-bottom: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 footer i {
   color: orange;
   font-size: 40px;
@@ -382,7 +340,6 @@ footer i {
     justify-content: center !important;
   }
 }
-
 .jumbotron {
   background-color: orange;
   display: block;
@@ -393,9 +350,7 @@ footer i {
   background-image: url(../img/regalon.jpg);
   background-size: cover;
   background-position: center;
-  /* filter: brightness(); */
 }
-
 .jumbotron p {
   background-color: rgba(0, 0, 0, 0.7019607843);
   color: white;
@@ -407,7 +362,6 @@ footer i {
   height: 700px;
   width: 750px;
 }
-
 @media (max-width: 750px) {
   .jumbotron p {
     width: 100%;
@@ -420,12 +374,10 @@ footer i {
   background-color: #f8f9fa;
   padding: 50px 0;
 }
-
 .hero h1 {
   font-size: 36px;
   margin-bottom: 20px;
 }
-
 .hero p {
   font-size: 18px;
   margin-bottom: 30px;
@@ -434,19 +386,16 @@ footer i {
 .features {
   padding: 50px 0;
 }
-
 .features .card {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-
 .features .card-title {
   font-size: 24px;
   margin-bottom: 10px;
 }
-
 .features .card-text {
   font-size: 16px;
   color: #fff;
@@ -459,18 +408,15 @@ footer i {
   padding: 20px;
   margin-bottom: 20px;
 }
-
 .cat-toy h3 {
   color: #dc3545;
   font-size: 20px;
 }
-
 .cat-toy p {
   color: #333;
   font-size: 16px;
   margin-bottom: 10px;
 }
-
 .cat-toy img {
   width: 100%;
   max-width: 200px;
@@ -505,16 +451,13 @@ footer i {
   0% {
     transform: rotate(0deg);
   }
-
   50% {
     transform: rotate(180deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 body.mb-3 {
   font-family: Arial, sans-serif;
 }
@@ -526,7 +469,6 @@ body.mb-3 {
 .responsive-select {
   width: 100%;
 }
-
 @media (min-width: 768px) {
   .responsive-select {
     width: 50%;
@@ -553,7 +495,6 @@ button[type=submit] {
 .resumen-pedido {
   display: none;
 }
-
 .resumen-pedido.active {
   display: block;
 }
@@ -610,51 +551,62 @@ button[type=submit] {
 
 .row1 {
   height: auto;
-  max-width: 900px;
+  max-width: 100%;
   padding: 10px;
+  margin: 0;
 }
-
 .row1 img {
-  width: 300px;
+  width: auto;
   height: 200px;
   margin: 10px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 70%;
+  left: 60%;
   transform: translate(-50%, -50%);
   padding: 10px;
 }
 
+.fixed-heading {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: calc(50% - 40px);
+  background-color: rgba(241, 241, 241, 0.4509803922);
+  color: black;
+  padding: auto;
+  z-index: 9999;
+}
+@media (max-width: 768px) {
+  .fixed-heading {
+    width: calc(100% - 10px);
+    left: 10px;
+  }
+}
+
 .card-body {
-  padding: 1rem 2rem;
+  padding: -6rem 2rem;
 }
 
 .card-title {
   text-align: left !important;
 }
 
+/* Tamaño de fuente */
 .responsive-card-title {
   font-size: 15px;
-  /* Tamaño de fuente por defecto */
 }
-
 @media (max-width: 576px) {
   .responsive-card-title {
     font-size: 14px;
-    /* Tamaño de fuente para pantallas pequeñas */
   }
 }
-
 @media (min-width: 400px) and (max-width: 600px) {
   .responsive-card-title {
     font-size: 16px;
-    /* Tamaño de fuente para pantallas medianas */
   }
 }
 
 .col-md-11 {
   padding: 200px !important;
   transform: translate(-40%);
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
