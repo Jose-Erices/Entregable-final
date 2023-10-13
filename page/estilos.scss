@@ -663,13 +663,13 @@ button[type="submit"] {
   }
 }
 .fixed-heading {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  
+  top: 100px;
+  left: 10px;
   width: calc(50% - 40px);
-  background-color: #f1f1f173;
+  background-color: #f6f2f250;
   color: black;
-  padding: auto;
+  padding: 20PX;
   z-index: 9999;
   @media (max-width: 768px) {
     width: calc(100% - 10px);
@@ -696,7 +696,7 @@ button[type="submit"] {
   }
 }
 .col-md-11 {
-  padding: 200px !important;
+ 
   transform: translate(-40%);
 }
 
